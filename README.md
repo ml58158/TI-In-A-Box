@@ -1,7 +1,8 @@
 # TI-In-A-Box
-Open-Source TI Ingestion Box for Microsoft Sentinel
 
-This project creates a stand alone TI in a box solution that can be used for Microsoft Sentinel .
+This project creates a standalone Threat Intel in a box solution that can be used for Microsoft Sentinel .
+Once fully deployed, you will be able to ingest TI Feeds into Sentinel to enhance your analytics. 
+
 
 ## Step 1: Provision Ubuntu VM
 For this solution to work, you will to provision an <b> Ubuntu 20.04 or later </b> VM in Azure.<br>
@@ -15,5 +16,5 @@ SSH into your now Linux VM using your private key or password.
 ## Step 3: Download the setup script onto your VM
 wget --no-cache -O /tmp/Setup.sh https://raw.githubusercontent.com/ml58158/TI-In-A-Box/main/Setup.sh ; bash /tmp/Setup.sh
 
-## Step 4: Install the MISP Core TI Platform 
+## Step 4: Install the MISP Core TI Platform and all pre-requisties
 /tmp/Setup.sh
