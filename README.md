@@ -26,3 +26,7 @@ sudo passwd misp
 
 ## Step 6: Set Xfce4 session
 echo xfce4-session >~/.xsession
+
+## Step 7: Create RDP Rule in Azure Resource Group NSG
+Log into Azure and go to your VM Resource group.
+Create a rule to allow inbound RDP (Port 3389) for only your IP. 
