@@ -11,6 +11,7 @@ sudo ufw allow 3389
 
 #3. Install Xfce4 Desktop
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y install xfce4
+echo xfce4-session >~/.xsession
 
 #4. Install Firefox Browser
 sudo apt install firefox -y
