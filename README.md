@@ -14,7 +14,7 @@ I recommend creating a ssh key for it; however, a password would work as well.
 SSH into your now Linux VM using your private key or password. 
 
 ## Step 3: Download the setup script onto your VM
-wget --no-cache -O /tmp/Setup.sh https://raw.githubusercontent.com/ml58158/TI-In-A-Box/main/Setup.sh ; bash /tmp/Setup.sh
+wget --no-cache -O /tmp/Setup.sh https://raw.githubusercontent.com/ml58158/TI-In-A-Box/main/Setup.sh
 
 ## Step 4: Install the MISP Core TI Platform and all pre-requisties
 /tmp/Setup.sh
