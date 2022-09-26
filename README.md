@@ -19,7 +19,8 @@ wget --no-cache -O /tmp/Setup.sh https://raw.githubusercontent.com/ml58158/TI-In
 ## Step 4: Install the MISP Core TI Platform and all pre-requisties
 /tmp/Setup.sh
 
-### Manual Steps to run after Setup
+## Manual Steps to run after Setup
+
 ## Step 5: Set a local password for MISP user
 sudo passwd misp 
 
