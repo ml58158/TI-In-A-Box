@@ -17,7 +17,7 @@ SSH into your now Linux VM using your private key or password.
 wget --no-cache -O /tmp/Setup.sh https://raw.githubusercontent.com/ml58158/TI-In-A-Box/main/Setup.sh
 
 ## Step 4: Install the MISP Core TI Platform and all pre-requisties
-/tmp/Setup.sh
+bash /tmp/Setup.sh
 
 ## Manual Steps to run after Setup
 
